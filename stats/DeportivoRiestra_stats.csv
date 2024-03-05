@@ -1,0 +1,37 @@
+,Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,xG,npxG,xAG,npxG+xAG,PrgC,PrgP,PrgR,Gls,Ast,G+A,G-PK,G+A-PK,xG,xAG,xG+xAG,npxG,npxG+xAG,Matches,team
+0,Ignacio Arce,ar ARG,GK,31-331,8,8,720,8.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+1,Jonatan Goitía,ar ARG,DF,29-215,8,8,719,8.0,0,0,0,0,0,0,2,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,DeportivoRiestra
+2,Milton Céliz,ar ARG,MF,31-223,8,8,657,7.3,1,0,1,1,0,0,3,0,1.2,1.2,0.3,1.5,4,20,17,0.14,0.00,0.14,0.14,0.14,0.16,0.04,0.20,0.16,0.20,Matches,DeportivoRiestra
+3,Nicolás Caro,ar ARG,DF,28-305,7,7,630,7.0,0,0,0,0,0,0,1,0,0.1,0.1,0.0,0.1,3,10,2,0.00,0.00,0.00,0.00,0.00,0.02,0.00,0.02,0.02,0.02,Matches,DeportivoRiestra
+4,Nicolás Benegas,ar ARG,FW,28-003,8,6,469,5.2,0,1,1,0,0,0,2,0,0.3,0.3,0.6,1.0,3,15,28,0.00,0.19,0.19,0.00,0.19,0.06,0.12,0.19,0.06,0.19,Matches,DeportivoRiestra
+5,Alan Barrionuevo,ar ARG,DF,27-062,7,5,483,5.4,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,0,24,1,0.00,0.00,0.00,0.00,0.00,0.02,0.00,0.03,0.02,0.03,Matches,DeportivoRiestra
+6,Maximiliano Rodríguez,ar ARG,"DF,MF",36-019,8,5,442,4.9,0,0,0,0,0,0,0,0,0.3,0.3,0.0,0.3,1,9,7,0.00,0.00,0.00,0.00,0.00,0.07,0.00,0.07,0.07,0.07,Matches,DeportivoRiestra
+7,Nahuel Iribarren,ar ARG,DF,36-031,5,5,434,4.8,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,1,7,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+8,Nicolas Dematei,ar ARG,DF,36-106,5,5,417,4.6,0,0,0,0,0,0,1,0,0.2,0.2,0.0,0.2,6,13,4,0.00,0.00,0.00,0.00,0.00,0.05,0.01,0.05,0.05,0.05,Matches,DeportivoRiestra
+9,Pedro Ramírez,ar ARG,"DF,MF",23-335,6,5,361,4.0,0,0,0,0,0,0,2,0,0.0,0.0,0.1,0.1,0,4,10,0.00,0.00,0.00,0.00,0.00,0.01,0.02,0.03,0.01,0.03,Matches,DeportivoRiestra
+10,Walter Acuña,ar ARG,"MF,FW",32-000,6,5,353,3.9,0,0,0,0,0,0,0,0,0.4,0.4,0.4,0.8,10,19,23,0.00,0.00,0.00,0.00,0.00,0.10,0.11,0.21,0.10,0.21,Matches,DeportivoRiestra
+11,Jonathan Herrera,ar ARG,"FW,MF",32-170,6,4,433,4.8,1,1,2,1,0,0,1,0,0.8,0.8,0.2,0.9,9,4,28,0.21,0.21,0.42,0.21,0.42,0.16,0.04,0.20,0.16,0.20,Matches,DeportivoRiestra
+12,Jonathan Goya,ar ARG,MF,34-356,5,4,364,4.0,0,0,0,0,0,0,1,0,0.1,0.1,0.1,0.1,0,5,1,0.00,0.00,0.00,0.00,0.00,0.02,0.02,0.04,0.02,0.04,Matches,DeportivoRiestra
+13,William Machado,uy URU,MF,29-278,4,3,237,2.6,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0,7,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+14,Gustavo Fernández,ar ARG,FW,33-213,6,2,254,2.8,0,0,0,0,0,0,1,0,0.1,0.1,0.2,0.3,4,5,14,0.00,0.00,0.00,0.00,0.00,0.02,0.08,0.10,0.02,0.10,Matches,DeportivoRiestra
+15,Nicolás Sansotre,ar ARG,DF,30-178,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,4,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+16,Ramón Gonzalez,ar ARG,FW,21-340,3,2,128,1.4,0,0,0,0,0,0,0,0,0.0,0.0,0.1,0.1,0,1,5,0.00,0.00,0.00,0.00,0.00,0.00,0.09,0.09,0.00,0.09,Matches,DeportivoRiestra
+17,Mauro Ortiz,ar ARG,MF,29-159,2,2,100,1.1,1,0,1,1,0,0,1,0,0.4,0.4,0.0,0.4,4,4,4,0.90,0.00,0.90,0.90,0.90,0.38,0.00,0.38,0.38,0.38,Matches,DeportivoRiestra
+18,Joaquín Borja,ar ARG,"MF,FW",22-041,3,1,105,1.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+19,Guillermo Pereira,ar ARG,"DF,MF",30-048,3,1,97,1.1,0,0,0,0,0,0,0,0,0.0,0.0,0.1,0.1,1,5,1,0.00,0.00,0.00,0.00,0.00,0.01,0.07,0.08,0.01,0.08,Matches,DeportivoRiestra
+20,José Méndez,ar ARG,"MF,FW",30-342,3,0,115,1.3,0,1,1,0,0,0,1,0,0.1,0.1,0.4,0.5,5,4,11,0.00,0.78,0.78,0.00,0.78,0.07,0.30,0.37,0.07,0.37,Matches,DeportivoRiestra
+21,Gonzalo Bravo,ar ARG,"MF,FW",33-291,5,0,97,1.1,0,0,0,0,0,0,0,0,0.0,0.0,0.1,0.1,2,2,7,0.00,0.00,0.00,0.00,0.00,0.01,0.08,0.10,0.01,0.10,Matches,DeportivoRiestra
+22,Leonardo Landriel,ar ARG,"DF,MF",27-234,3,0,65,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,1,4,3,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+23,Tomás Villoldo,ar ARG,DF,29-005,1,0,34,0.4,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,DeportivoRiestra
+24,Pablo Monje,ar ARG,MF,27-027,1,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+25,Enzo Avaro,ar ARG,DF,24-291,1,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.00,0.31,0.31,0.00,0.31,Matches,DeportivoRiestra
+26,Gabriel Cañete,ar ARG,"DF,FW",25-010,2,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,DeportivoRiestra
+27,Gustavo Benítez,ar ARG,DF,37-363,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+28,Maximiliano Brito,uy URU,FW,32-229,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+29,Juan Dobboletta,ar ARG,GK,31-058,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+30,Nahuel Manganelli,ar ARG,GK,23-014,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+31,Delfor Minervino,ar ARG,DF,27-329,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+32,Yaison Murillo,co COL,DF,30-110,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+33,Samuel Portillo,py PAR,FW,29-307,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,DeportivoRiestra
+34,Squad Total,,,31.0,8,88,720,8.0,3,3,6,3,0,0,20,0,4.4,4.4,2.9,7.3,54,168,170,0.37,0.37,0.75,0.37,0.75,0.55,0.36,0.91,0.55,0.91,,DeportivoRiestra
+35,Opponent Total,,,27.4,8,88,720,8.0,11,8,19,11,0,0,8,2,11.7,11.7,8.7,20.4,140,347,333,1.37,1.00,2.37,1.37,2.37,1.47,1.09,2.56,1.47,2.56,,DeportivoRiestra
