@@ -1,0 +1,32 @@
+,Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,xG,npxG,xAG,npxG+xAG,PrgC,PrgP,PrgR,Gls,Ast,G+A,G-PK,G+A-PK,xG,xAG,xG+xAG,npxG,npxG+xAG,Matches,team
+0,Santiago Longo,ar ARG,MF,25-329,8,8,720,8.0,0,2,2,0,0,0,1,0,0.0,0.0,0.4,0.4,1,27,3,0.00,0.25,0.25,0.00,0.25,0.00,0.05,0.05,0.00,0.05,Matches,ClubAtleticoBelgrano
+1,Nahuel Losada,ar ARG,GK,30-324,8,8,720,8.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+2,Ulises Sánchez,ar ARG,MF,25-254,8,7,671,7.5,1,3,4,1,0,0,0,0,0.7,0.7,2.0,2.7,8,31,16,0.13,0.40,0.54,0.13,0.54,0.09,0.27,0.36,0.09,0.36,Matches,ClubAtleticoBelgrano
+3,Matias Moreno,ar ARG,DF,20-164,7,7,630,7.0,0,1,1,0,0,0,1,0,0.6,0.6,1.0,1.6,2,12,0,0.00,0.14,0.14,0.00,0.14,0.09,0.14,0.23,0.09,0.23,Matches,ClubAtleticoBelgrano
+4,Lucas Passerini,ar ARG,FW,29-234,7,7,595,6.6,3,1,4,3,0,0,2,1,2.5,2.5,0.6,3.1,4,12,45,0.45,0.15,0.61,0.45,0.61,0.38,0.09,0.47,0.38,0.47,Matches,ClubAtleticoBelgrano
+5,Francisco González,ar ARG,"MF,FW",26-343,8,7,576,6.4,0,0,0,0,0,0,1,0,0.6,0.6,0.3,0.9,7,15,29,0.00,0.00,0.00,0.00,0.00,0.09,0.05,0.14,0.09,0.14,Matches,ClubAtleticoBelgrano
+6,Juan Barinaga,ar ARG,DF,23-148,7,6,524,5.8,1,0,1,1,0,0,2,0,0.5,0.5,0.1,0.6,13,11,17,0.17,0.00,0.17,0.17,0.17,0.08,0.02,0.10,0.08,0.10,Matches,ClubAtleticoBelgrano
+7,Matias Ibacache,cl CHI,DF,25-055,6,6,496,5.5,0,0,0,0,0,0,0,0,0.0,0.0,0.1,0.1,14,14,15,0.00,0.00,0.00,0.00,0.00,0.00,0.01,0.02,0.00,0.02,Matches,ClubAtleticoBelgrano
+8,Nicolás Meriano,ar ARG,DF,23-118,7,6,494,5.5,1,0,1,1,0,0,2,0,0.0,0.0,0.0,0.1,0,8,0,0.18,0.00,0.18,0.18,0.18,0.01,0.00,0.01,0.01,0.01,Matches,ClubAtleticoBelgrano
+9,Esteban Rolón,ar ARG,MF,28-347,6,6,437,4.9,0,0,0,0,0,0,2,1,0.4,0.4,0.2,0.5,7,14,5,0.00,0.00,0.00,0.00,0.00,0.07,0.03,0.11,0.07,0.11,Matches,ClubAtleticoBelgrano
+10,Matías García,ar ARG,MF,32-136,8,5,395,4.4,0,2,2,0,0,0,1,0,0.2,0.2,1.3,1.6,4,23,14,0.00,0.46,0.46,0.00,0.46,0.05,0.31,0.35,0.05,0.35,Matches,ClubAtleticoBelgrano
+11,Bryan Reyna,pe PER,"MF,FW",25-196,5,4,287,3.2,2,0,2,2,0,0,0,0,1.4,1.4,0.0,1.4,8,8,23,0.63,0.00,0.63,0.63,0.63,0.43,0.00,0.44,0.43,0.44,Matches,ClubAtleticoBelgrano
+12,Alejandro Rébola,ar ARG,DF,35-226,5,3,326,3.6,0,0,0,0,0,0,0,0,0.2,0.2,0.0,0.2,0,4,0,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.05,0.05,0.05,Matches,ClubAtleticoBelgrano
+13,Rafael Marcelo Delgado,ar ARG,DF,34-053,3,2,170,1.9,0,0,0,0,0,0,1,0,0.0,0.0,0.1,0.2,2,6,4,0.00,0.00,0.00,0.00,0.00,0.02,0.07,0.09,0.02,0.09,Matches,ClubAtleticoBelgrano
+14,Francisco Facello,ar ARG,DF,21-055,3,2,159,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,1,3,5,0.00,0.00,0.00,0.00,0.00,0.01,0.00,0.01,0.01,0.01,Matches,ClubAtleticoBelgrano
+15,Facundo Quignon,ar ARG,MF,30-309,3,2,130,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,5,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+16,Pablo Chavarría,ar ARG,"FW,DF",36-064,5,1,124,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.2,0.3,2,4,8,0.00,0.00,0.00,0.00,0.00,0.02,0.16,0.18,0.02,0.18,Matches,ClubAtleticoBelgrano
+17,Mariano Miño,ar ARG,MF,29-344,1,1,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,1,4,2,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+18,Facundo Lencioni,ar ARG,"FW,MF",23-021,7,0,155,1.7,1,0,1,1,0,0,0,0,0.2,0.2,0.1,0.3,5,8,16,0.58,0.00,0.58,0.58,0.58,0.12,0.04,0.16,0.12,0.16,Matches,ClubAtleticoBelgrano
+19,Matías Marín,cl CHI,MF,24-078,3,0,59,0.7,1,0,1,1,0,0,0,0,0.1,0.1,0.0,0.1,3,3,4,1.53,0.00,1.53,1.53,1.53,0.22,0.00,0.22,0.22,0.22,Matches,ClubAtleticoBelgrano
+20,Matías Suárez,ar ARG,"FW,MF",35-302,2,0,30,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,1,3,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+21,Gonzalo Maffini,ar ARG,DF,31-049,1,0,27,0.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+22,Matías Palavecino,ar ARG,MF,25-349,1,0,21,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+23,Nicolás Schiappacasse,uy URU,FW,25-054,1,0,21,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,1,2,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+24,Franco Jara,ar ARG,MF,35-235,1,0,14,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,1,0.00,0.00,0.00,0.00,0.00,0.17,0.00,0.17,0.17,0.17,Matches,ClubAtleticoBelgrano
+25,Ariel Rojas,ar ARG,MF,38-050,1,0,14,0.2,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+26,Lautaro Pastran,ar ARG,"MF,DF",21-253,2,0,11,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,ClubAtleticoBelgrano
+27,Jeremías Lucco,ar ARG,MF,18-087,3,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.1,0.1,3,1,2,0.00,0.00,0.00,0.00,0.00,0.00,1.53,1.53,0.00,1.53,Matches,ClubAtleticoBelgrano
+28,Ignacio Chicco,ar ARG,GK,27-250,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,ClubAtleticoBelgrano
+29,Squad Total,,,27.1,8,88,720,8.0,10,9,19,10,0,0,17,2,7.5,7.5,6.6,14.1,85,217,216,1.25,1.13,2.37,1.25,2.37,0.94,0.82,1.77,0.94,1.77,,ClubAtleticoBelgrano
+30,Opponent Total,,,27.6,8,88,720,8.0,11,9,20,10,1,2,15,0,11.2,9.7,8.4,18.1,127,327,322,1.37,1.13,2.50,1.25,2.37,1.40,1.06,2.46,1.21,2.26,,ClubAtleticoBelgrano

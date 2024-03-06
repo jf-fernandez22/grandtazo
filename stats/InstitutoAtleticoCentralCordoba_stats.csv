@@ -1,0 +1,31 @@
+,Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,xG,npxG,xAG,npxG+xAG,PrgC,PrgP,PrgR,Gls,Ast,G+A,G-PK,G+A-PK,xG,xAG,xG+xAG,npxG,npxG+xAG,Matches,team
+0,Fernando Alarcón,ar ARG,DF,29-263,9,9,810,9.0,0,0,0,0,0,0,2,0,0.2,0.2,0.1,0.2,3,20,5,0.00,0.00,0.00,0.00,0.00,0.02,0.01,0.02,0.02,0.02,Matches,InstitutoAtleticoCentralCordoba
+1,Manuel Roffo,ar ARG,GK,23-336,9,9,810,9.0,0,0,0,0,0,0,0,0,0.0,0.0,0.2,0.2,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.03,0.03,0.00,0.03,Matches,InstitutoAtleticoCentralCordoba
+2,Gastón Lodico,ar ARG,MF,25-282,9,9,770,8.6,0,5,5,0,0,0,0,0,0.3,0.3,2.2,2.5,10,74,20,0.00,0.58,0.58,0.00,0.58,0.04,0.25,0.29,0.04,0.29,Matches,InstitutoAtleticoCentralCordoba
+3,Damián Puebla,ar ARG,"MF,FW",21-172,9,9,669,7.4,5,0,5,3,2,2,1,0,2.7,1.1,0.6,1.7,22,26,40,0.67,0.00,0.67,0.40,0.40,0.36,0.08,0.44,0.15,0.23,Matches,InstitutoAtleticoCentralCordoba
+4,Roberto Bochi,ar ARG,MF,34-080,9,8,717,8.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,5,21,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,InstitutoAtleticoCentralCordoba
+5,Miguel Brizuela,ar ARG,DF,27-060,7,7,575,6.4,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,2,33,0,0.00,0.00,0.00,0.00,0.00,0.02,0.00,0.02,0.02,0.02,Matches,InstitutoAtleticoCentralCordoba
+6,Juan Franco Arrellaga,py PAR,DF,32-024,7,7,561,6.2,1,0,1,1,0,0,2,0,0.8,0.8,0.7,1.5,6,14,18,0.16,0.00,0.16,0.16,0.16,0.13,0.12,0.24,0.13,0.24,Matches,InstitutoAtleticoCentralCordoba
+7,Jonathan Bay,ar ARG,DF,31-033,7,6,537,6.0,1,1,2,1,0,0,1,0,0.4,0.4,0.3,0.7,3,14,30,0.17,0.17,0.34,0.17,0.34,0.07,0.05,0.11,0.07,0.11,Matches,InstitutoAtleticoCentralCordoba
+8,Facundo Suárez,ar ARG,FW,29-248,9,6,476,5.3,2,1,3,2,0,0,1,0,2.1,2.1,0.3,2.4,7,5,23,0.38,0.19,0.57,0.38,0.57,0.41,0.05,0.46,0.41,0.46,Matches,InstitutoAtleticoCentralCordoba
+9,Silvio Romero,ar ARG,FW,35-227,7,5,365,4.1,0,1,1,0,0,0,0,0,0.4,0.4,0.3,0.7,5,6,30,0.00,0.25,0.25,0.00,0.25,0.11,0.07,0.17,0.11,0.17,Matches,InstitutoAtleticoCentralCordoba
+10,Víctor Cabrera,ar ARG,DF,31-027,5,4,343,3.8,0,0,0,0,0,0,1,0,0.1,0.1,0.0,0.1,1,9,2,0.00,0.00,0.00,0.00,0.00,0.02,0.01,0.03,0.02,0.03,Matches,InstitutoAtleticoCentralCordoba
+11,Brian Cuello,ar ARG,MF,26-157,8,3,368,4.1,1,0,1,1,0,0,0,0,,,,,,,,0.24,0.00,0.24,0.24,0.24,,,,,,Matches,InstitutoAtleticoCentralCordoba
+12,Ignacio Russo,ar ARG,FW,23-083,8,3,345,3.8,1,0,1,1,0,0,1,0,1.3,1.3,0.4,1.7,4,9,17,0.26,0.00,0.26,0.26,0.26,0.35,0.10,0.45,0.35,0.45,Matches,InstitutoAtleticoCentralCordoba
+13,Jonás Acevedo,ar ARG,"MF,FW",27-028,6,3,325,3.6,0,2,2,0,0,0,1,0,0.9,0.9,1.5,2.4,12,14,14,0.00,0.55,0.55,0.00,0.55,0.25,0.41,0.66,0.25,0.66,Matches,InstitutoAtleticoCentralCordoba
+14,Guido Mainero,ar ARG,"MF,FW",28-348,7,3,276,3.1,0,0,0,0,0,0,1,0,0.2,0.2,0.4,0.5,7,8,16,0.00,0.00,0.00,0.00,0.00,0.06,0.12,0.18,0.06,0.18,Matches,InstitutoAtleticoCentralCordoba
+15,Lucas Rodríguez,ar ARG,"DF,MF",30-160,4,3,273,3.0,0,0,0,0,0,0,2,0,0.1,0.1,0.2,0.2,6,18,18,0.00,0.00,0.00,0.00,0.00,0.02,0.05,0.07,0.02,0.07,Matches,InstitutoAtleticoCentralCordoba
+16,Giuliano Cerato,ar ARG,"DF,MF",25-269,4,2,249,2.8,0,0,0,0,0,0,3,0,0.3,0.3,0.2,0.5,4,9,14,0.00,0.00,0.00,0.00,0.00,0.09,0.08,0.17,0.09,0.17,Matches,InstitutoAtleticoCentralCordoba
+17,Nicolás Barrientos,ar ARG,"MF,FW",28-335,4,1,117,1.3,1,0,1,1,0,0,0,0,0.5,0.5,0.2,0.6,0,3,7,0.77,0.00,0.77,0.77,0.77,0.36,0.12,0.48,0.36,0.48,Matches,InstitutoAtleticoCentralCordoba
+18,Rodrigo Pérez,uy URU,MF,27-226,3,1,97,1.1,0,0,0,0,0,0,1,0,0.2,0.2,0.0,0.2,0,4,1,0.00,0.00,0.00,0.00,0.00,0.23,0.00,0.23,0.23,0.23,Matches,InstitutoAtleticoCentralCordoba
+19,Gregorio Rodríguez,ar ARG,FW,24-048,1,1,39,0.4,0,0,0,0,0,0,0,1,0.1,0.1,0.0,0.1,1,1,3,0.00,0.00,0.00,0.00,0.00,0.22,0.00,0.22,0.22,0.22,Matches,InstitutoAtleticoCentralCordoba
+20,Santiago Rodriguez,ar ARG,"FW,DF",26-195,6,0,97,1.1,2,0,2,1,1,1,2,0,1.9,1.1,0.6,1.7,9,5,11,1.86,0.00,1.86,0.93,0.93,1.70,0.60,2.30,0.98,1.58,Matches,InstitutoAtleticoCentralCordoba
+21,Stéfano Moreyra,ar ARG,MF,22-168,1,0,24,0.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,3,1,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,InstitutoAtleticoCentralCordoba
+22,Gonzalo Requena,ar ARG,"DF,MF",21-001,2,0,11,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,InstitutoAtleticoCentralCordoba
+23,Nicolás Dubersarsky,ar ARG,MF,19-075,1,0,5,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,InstitutoAtleticoCentralCordoba
+24,Emanuel Bilbao,ar ARG,GK,34-123,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,InstitutoAtleticoCentralCordoba
+25,Lautaro Carrera,ar ARG,DF,20-280,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,InstitutoAtleticoCentralCordoba
+26,Jeremías Lázaro,ar ARG,MF,19-251,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,InstitutoAtleticoCentralCordoba
+27,Marcos Peano,ar ARG,GK,25-142,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,InstitutoAtleticoCentralCordoba
+28,Squad Total,,,28.2,9,99,810,9.0,14,10,24,11,3,3,21,1,12.9,10.6,8.2,18.8,107,296,270,1.56,1.11,2.67,1.22,2.33,1.44,0.91,2.35,1.17,2.09,,InstitutoAtleticoCentralCordoba
+29,Opponent Total,,,28.1,9,99,810,9.0,7,5,12,7,0,0,28,2,6.1,6.1,4.4,10.5,100,299,281,0.78,0.56,1.33,0.78,1.33,0.68,0.48,1.17,0.68,1.17,,InstitutoAtleticoCentralCordoba

@@ -18,7 +18,7 @@ import os
 import unicodedata
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/jf/Documents/GRANDT/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"./assets/frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -83,6 +83,11 @@ def get_fixture(week):
     dff['Away'] = dff['Away'].apply(remove_accents)
     return dff[['Day', 'Time', 'Home', 'Away']]
 
+def get_proxy():
+    return {
+        'http': FreeProxy().get(),
+    }
+
 def get_player_data():
     urls = ['https://fbref.com/en/squads/40bb0ce9/Independiente-Stats', 'https://fbref.com/en/squads/ef99c78c/River-Plate-Stats', 'https://fbref.com/en/squads/e2f19203/Instituto-Atletico-Central-Cordoba-Stats',
         'https://fbref.com/en/squads/d01a653b/Argentinos-Jun-Stats', 'https://fbref.com/en/squads/1d89634b/Barracas-Central-Stats', 'https://fbref.com/en/squads/ceda2145/Talleres-Stats',
@@ -124,20 +129,19 @@ def show_fixture():
     fixture_df = get_fixture(week)
     entry_1.delete(1.0, tk.END)  # Clear previous text
     entry_1.insert(tk.END, fixture_df.to_string(index=False))
-
+    
 def get_opponent_and_location(team, fixture_df):
     # Find rows where the team is either home or away
     team_home = fixture_df[fixture_df['Home'] == team]
     team_away = fixture_df[fixture_df['Away'] == team]
 
-    # Concatenate them into one dataframe
-    team_matches = pd.concat([team_home, team_away])
-
-    # Determine opponent and location
-    opponent = team_matches['Away'].where(team_matches['Home'] == team, team_matches['Home'])
-    location = ['Home' if x == team else 'Away' for x in opponent]
-
-    return opponent, location
+    # Check if the team is playing home or away
+    if not team_home.empty:
+        return team_home['Away'].iloc[0], 1
+    elif not team_away.empty:
+        return team_away['Home'].iloc[0], 0
+    else:
+        return None, None 
 
 def score_gk(team, rival, teamstats, std, f1, f2, f3, local, fecha):
     dp = std[std['Squad']==team]['PD'].values[0]
@@ -322,7 +326,8 @@ entry_1 = Text(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
-    highlightthickness=0
+    highlightthickness=0,
+    font=("Arial", 11)
 )
 entry_1.place(
     x=969.0,
@@ -336,7 +341,7 @@ canvas.create_text(
     78.0,
     anchor="nw",
     text="Fecha Actual",
-    fill="#000000",
+    fill="#FFFFFF",
     font=("Inter", 32 * -1)
 )
 
@@ -351,7 +356,8 @@ entry_2 = Text(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
-    highlightthickness=0
+    highlightthickness=0,
+    font=("Arial", 11)
 )
 entry_2.place(
     x=534.0,
@@ -365,7 +371,7 @@ canvas.create_text(
     78.0,
     anchor="nw",
     text="Posiciones",
-    fill="#000000",
+    fill="#FFFFFF",
     font=("Inter", 32 * -1)
 )
 
@@ -380,7 +386,8 @@ entry_3 = Text(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
-    highlightthickness=0
+    highlightthickness=0,
+    font=("Arial", 11)
 )
 entry_3.place(
     x=33.0,
@@ -409,7 +416,8 @@ entry_4 = Text(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
-    highlightthickness=0
+    highlightthickness=0,
+    font=("Arial", 11)
 )
 entry_4.place(
     x=384.0,
@@ -438,7 +446,8 @@ entry_5 = Text(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
-    highlightthickness=0
+    highlightthickness=0,
+    font=("Arial", 11)
 )
 entry_5.place(
     x=735.0,
@@ -453,7 +462,7 @@ canvas.create_text(
     anchor="nw",
     text="Mejores Medios",
     fill="#000000",
-    font=("Inter", 28 * -1)
+    font=("Arial", 11)
 )
 
 entry_image_6 = PhotoImage(
@@ -467,7 +476,8 @@ entry_6 = Text(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
-    highlightthickness=0
+    highlightthickness=0,
+    font=("Helvetica", 12)
 )
 entry_6.place(
     x=1079.0,
@@ -485,7 +495,7 @@ canvas.create_text(
     font=("Inter", 28 * -1)
 )
 button_image_0 = PhotoImage(
-    file=relative_to_assets("button_1.png"))
+    file=relative_to_assets("jugs.png"))
 button_0 = Button(
     image=button_image_0,
     borderwidth=0,
