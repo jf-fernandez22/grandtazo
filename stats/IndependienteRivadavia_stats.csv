@@ -1,37 +1,37 @@
 ,Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,xG,npxG,xAG,npxG+xAG,PrgC,PrgP,PrgR,Gls,Ast,G+A,G-PK,G+A-PK,xG,xAG,xG+xAG,npxG,npxG+xAG,Matches,team
-0,Bruno Bianchi,ar ARG,DF,35-017,8,8,720,8.0,1,1,2,1,0,0,5,0,0.3,0.3,0.3,0.6,0,6,0,0.12,0.12,0.25,0.12,0.25,0.04,0.03,0.07,0.04,0.07,Matches,IndependienteRivadavia
-1,Gonzalo Marinelli,ar ARG,GK,35-027,8,8,720,8.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
-2,Matías Reali,ar ARG,"MF,FW",26-112,8,8,702,7.8,0,3,3,0,0,0,1,0,0.5,0.5,1.8,2.2,38,11,85,0.00,0.38,0.38,0.00,0.38,0.06,0.23,0.29,0.06,0.29,Matches,IndependienteRivadavia
-3,Luciano Abecasis,ar ARG,"MF,DF",33-275,8,8,692,7.7,0,1,1,0,0,0,2,0,0.1,0.1,1.2,1.3,10,36,22,0.00,0.13,0.13,0.00,0.13,0.01,0.16,0.17,0.01,0.17,Matches,IndependienteRivadavia
-4,Juan Manuel Vázquez,ar ARG,MF,29-224,8,7,620,6.9,1,1,2,1,0,0,1,0,0.9,0.9,0.4,1.2,6,38,19,0.15,0.15,0.29,0.15,0.29,0.13,0.05,0.18,0.13,0.18,Matches,IndependienteRivadavia
-5,Emmanuel Más,ar ARG,DF,35-050,7,7,578,6.4,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
-6,Gastón Gil Romero,ar ARG,MF,30-304,7,7,559,6.2,0,1,1,0,0,0,2,0,0.0,0.0,0.1,0.2,2,19,3,0.00,0.16,0.16,0.00,0.16,0.01,0.02,0.03,0.01,0.03,Matches,IndependienteRivadavia
-7,Mauro Maidana,ar ARG,DF,33-237,6,6,520,5.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,3,16,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
-8,Francisco Petrasso,ar ARG,DF,22-006,6,6,449,5.0,0,0,0,0,0,0,4,1,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
-9,Alex Arce,py PAR,FW,28-263,5,5,353,3.9,2,0,2,2,0,0,1,0,,,,,,,,0.51,0.00,0.51,0.51,0.51,,,,,,Matches,IndependienteRivadavia
-10,Antonio Napolitano,ar ARG,MF,25-018,5,5,295,3.3,0,0,0,0,0,0,1,0,0.2,0.2,0.5,0.7,5,22,7,0.00,0.00,0.00,0.00,0.00,0.06,0.15,0.21,0.06,0.21,Matches,IndependienteRivadavia
-11,Ezequiel Ham,sy SYR,MF,29-361,5,3,247,2.7,0,0,0,0,0,0,1,0,0.1,0.1,0.1,0.2,10,27,5,0.00,0.00,0.00,0.00,0.00,0.05,0.03,0.07,0.05,0.07,Matches,IndependienteRivadavia
-12,Victorio Ramis,ar ARG,"FW,MF",29-242,8,2,233,2.6,2,0,2,2,0,0,1,0,1.3,1.3,0.5,1.8,0,3,12,0.77,0.00,0.77,0.77,0.77,0.49,0.20,0.69,0.49,0.69,Matches,IndependienteRivadavia
-13,Matías Ruíz Díaz,ar ARG,DF,27-178,2,2,135,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,3,6,5,0.00,0.00,0.00,0.00,0.00,0.00,0.01,0.01,0.00,0.01,Matches,IndependienteRivadavia
-14,Tobías Ostchega,ar ARG,DF,25-193,4,1,192,2.1,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
-15,Mauricio Asenjo,ar ARG,FW,29-226,6,1,176,2.0,1,0,1,1,0,0,0,0,1.1,1.1,0.0,1.1,5,3,9,0.51,0.00,0.51,0.51,0.51,0.58,0.01,0.59,0.58,0.59,Matches,IndependienteRivadavia
-16,Tiago Palacios,ar ARG,"DF,MF",20-312,2,1,125,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,4,4,0,0.00,0.00,0.00,0.00,0.00,0.03,0.00,0.03,0.03,0.03,Matches,IndependienteRivadavia
-17,Joel Soñora,us USA,"DF,MF",27-172,3,1,109,1.2,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,3,7,2,0.00,0.00,0.00,0.00,0.00,0.06,0.02,0.09,0.06,0.09,Matches,IndependienteRivadavia
-18,Juan Cavallaro,ar ARG,MF,29-251,1,1,63,0.7,1,0,1,1,0,0,0,0,1.0,1.0,0.0,1.1,2,2,6,1.43,0.00,1.43,1.43,1.43,1.52,0.02,1.54,1.52,1.54,Matches,IndependienteRivadavia
-19,Nehuén Paz,ar ARG,DF,30-312,1,1,34,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
-20,Sebastián Zeballos,ar ARG,FW,22-232,5,0,130,1.4,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
-21,Rufino Lucero,ar ARG,"MF,DF",22-033,3,0,110,1.2,0,0,0,0,0,0,0,0,0.1,0.1,0.5,0.6,2,5,9,0.00,0.00,0.00,0.00,0.00,0.07,0.40,0.47,0.07,0.47,Matches,IndependienteRivadavia
-22,Federico Castro,ar ARG,"FW,MF",31-190,4,0,64,0.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,0,9,0.00,0.00,0.00,0.00,0.00,0.02,0.04,0.06,0.02,0.06,Matches,IndependienteRivadavia
-23,Joaquín Arzura,ar ARG,MF,30-292,1,0,28,0.3,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,0,2,1,0.00,0.00,0.00,0.00,0.00,0.28,0.00,0.28,0.28,0.28,Matches,IndependienteRivadavia
-24,Federico Moreno,ar ARG,MF,20-324,1,0,20,0.2,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,0,0,1,0.00,0.00,0.00,0.00,0.00,0.26,0.00,0.26,0.26,0.26,Matches,IndependienteRivadavia
-25,Mateo Ortale,ar ARG,DF,21-352,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
-26,Fernando Arce,py PAR,DF,26-154,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-27,Francisco Maidana,ar ARG,MF,22-067,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-28,Mariano Monllor,ar ARG,GK,35-006,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-29,Luciano Paz,ar ARG,MF,22-364,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-30,Emiliano Saliadarre,ar ARG,FW,21-305,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-31,Fabrizio Sartori,ar ARG,FW,21-234,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-32,Diego Tonetto,ar ARG,MF,35-091,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-33,Hugo Valdez,py PAR,"FW,MF",28-269,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
-34,Squad Total,,,30.3,8,88,720,8.0,8,7,15,8,0,0,23,1,7.0,7.0,6.2,13.2,98,222,205,1.00,0.87,1.87,1.00,1.87,0.88,0.77,1.65,0.88,1.65,,IndependienteRivadavia
-35,Opponent Total,,,27.8,8,88,720,8.0,15,9,24,15,0,0,22,1,12.3,12.3,9.3,21.5,120,293,296,1.87,1.13,3.00,1.87,3.00,1.53,1.16,2.69,1.53,2.69,,IndependienteRivadavia
+0,Gonzalo Marinelli,ar ARG,GK,35-031,9,9,810,9.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
+1,Matías Reali,ar ARG,"FW,MF",26-116,9,9,792,8.8,0,3,3,0,0,0,1,0,0.7,0.7,1.8,2.5,44,13,93,0.00,0.34,0.34,0.00,0.34,0.08,0.20,0.28,0.08,0.28,Matches,IndependienteRivadavia
+2,Luciano Abecasis,ar ARG,"MF,DF",33-279,9,9,758,8.4,0,1,1,0,0,0,3,0,0.1,0.1,1.2,1.3,10,36,25,0.00,0.12,0.12,0.00,0.12,0.01,0.15,0.16,0.01,0.16,Matches,IndependienteRivadavia
+3,Bruno Bianchi,ar ARG,DF,35-021,8,8,720,8.0,1,1,2,1,0,0,5,0,0.3,0.3,0.3,0.6,0,6,0,0.12,0.12,0.25,0.12,0.25,0.04,0.03,0.07,0.04,0.07,Matches,IndependienteRivadavia
+4,Emmanuel Más,ar ARG,DF,35-054,8,8,644,7.2,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
+5,Gastón Gil Romero,ar ARG,MF,30-308,8,8,643,7.1,0,1,1,0,0,0,3,0,0.1,0.1,0.2,0.3,2,23,3,0.00,0.14,0.14,0.00,0.14,0.01,0.03,0.04,0.01,0.04,Matches,IndependienteRivadavia
+6,Juan Manuel Vázquez,ar ARG,MF,29-228,9,7,644,7.2,1,1,2,1,0,0,1,0,0.9,0.9,0.4,1.3,6,38,22,0.14,0.14,0.28,0.14,0.28,0.12,0.05,0.18,0.12,0.18,Matches,IndependienteRivadavia
+7,Mauro Maidana,ar ARG,DF,33-241,7,7,610,6.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,3,18,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
+8,Francisco Petrasso,ar ARG,DF,22-010,7,7,539,6.0,0,0,0,0,0,0,4,1,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
+9,Antonio Napolitano,ar ARG,MF,25-022,6,6,340,3.8,0,0,0,0,0,0,1,0,0.2,0.2,0.5,0.7,5,24,7,0.00,0.00,0.00,0.00,0.00,0.05,0.13,0.18,0.05,0.18,Matches,IndependienteRivadavia
+10,Alex Arce,py PAR,FW,28-267,5,5,353,3.9,2,0,2,2,0,0,1,0,,,,,,,,0.51,0.00,0.51,0.51,0.51,,,,,,Matches,IndependienteRivadavia
+11,Victorio Ramis,ar ARG,"FW,MF",29-246,9,3,323,3.6,2,0,2,2,0,0,1,0,1.7,1.7,0.5,2.3,2,3,12,0.56,0.00,0.56,0.56,0.56,0.49,0.15,0.64,0.49,0.64,Matches,IndependienteRivadavia
+12,Ezequiel Ham,sy SYR,MF,29-365,6,3,292,3.2,0,0,0,0,0,0,1,0,0.1,0.1,0.2,0.4,10,31,7,0.00,0.00,0.00,0.00,0.00,0.05,0.08,0.12,0.05,0.12,Matches,IndependienteRivadavia
+13,Tobías Ostchega,ar ARG,DF,25-197,5,2,282,3.1,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
+14,Matías Ruíz Díaz,ar ARG,"DF,FW",27-182,3,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,3,9,8,0.00,0.00,0.00,0.00,0.00,0.00,0.01,0.01,0.00,0.01,Matches,IndependienteRivadavia
+15,Juan Cavallaro,ar ARG,"MF,FW",29-255,2,2,108,1.2,1,0,1,1,0,0,0,0,1.0,1.0,0.0,1.1,3,3,6,0.83,0.00,0.83,0.83,0.83,0.88,0.01,0.89,0.88,0.89,Matches,IndependienteRivadavia
+16,Mauricio Asenjo,ar ARG,FW,29-230,6,1,176,2.0,1,0,1,1,0,0,0,0,1.1,1.1,0.0,1.1,5,3,9,0.51,0.00,0.51,0.51,0.51,0.58,0.01,0.59,0.58,0.59,Matches,IndependienteRivadavia
+17,Tiago Palacios,ar ARG,"DF,MF",20-316,2,1,125,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,4,4,0,0.00,0.00,0.00,0.00,0.00,0.03,0.00,0.03,0.03,0.03,Matches,IndependienteRivadavia
+18,Joel Soñora,us USA,"DF,MF",27-176,3,1,109,1.2,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,3,7,2,0.00,0.00,0.00,0.00,0.00,0.06,0.02,0.09,0.06,0.09,Matches,IndependienteRivadavia
+19,Nehuén Paz,ar ARG,DF,30-316,1,1,34,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
+20,Sebastián Zeballos,ar ARG,FW,22-236,6,0,154,1.7,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
+21,Rufino Lucero,ar ARG,"MF,DF",22-037,3,0,110,1.2,0,0,0,0,0,0,0,0,0.1,0.1,0.5,0.6,2,5,9,0.00,0.00,0.00,0.00,0.00,0.07,0.40,0.47,0.07,0.47,Matches,IndependienteRivadavia
+22,Federico Castro,ar ARG,"FW,MF",31-194,4,0,64,0.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0,0,9,0.00,0.00,0.00,0.00,0.00,0.02,0.04,0.06,0.02,0.06,Matches,IndependienteRivadavia
+23,Joaquín Arzura,ar ARG,MF,30-296,1,0,28,0.3,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,0,2,1,0.00,0.00,0.00,0.00,0.00,0.28,0.00,0.28,0.28,0.28,Matches,IndependienteRivadavia
+24,Federico Moreno,ar ARG,MF,20-328,1,0,20,0.2,0,0,0,0,0,0,0,0,0.1,0.1,0.0,0.1,0,0,1,0.00,0.00,0.00,0.00,0.00,0.26,0.00,0.26,0.26,0.26,Matches,IndependienteRivadavia
+25,Francisco Maidana,ar ARG,MF,22-071,1,0,6,0.1,0,0,0,0,0,0,0,0,,,,,,,,0.00,0.00,0.00,0.00,0.00,,,,,,Matches,IndependienteRivadavia
+26,Mateo Ortale,ar ARG,DF,21-356,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches,IndependienteRivadavia
+27,Fernando Arce,py PAR,DF,26-158,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+28,Mariano Monllor,ar ARG,GK,35-010,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+29,Luciano Paz,ar ARG,MF,23-002,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+30,Emiliano Saliadarre,ar ARG,FW,21-309,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+31,Fabrizio Sartori,ar ARG,FW,21-238,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+32,Diego Tonetto,ar ARG,MF,35-095,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+33,Hugo Valdez,py PAR,"FW,MF",28-273,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches,IndependienteRivadavia
+34,Squad Total,,,30.2,9,99,810,9.0,8,7,15,8,0,0,25,1,7.9,7.9,6.6,14.5,107,240,228,0.89,0.78,1.67,0.89,1.67,0.88,0.73,1.61,0.88,1.61,,IndependienteRivadavia
+35,Opponent Total,,,27.7,9,99,810,9.0,17,11,28,17,0,0,25,1,13.7,13.7,10.1,23.8,138,362,365,1.89,1.22,3.11,1.89,3.11,1.52,1.12,2.65,1.52,2.65,,IndependienteRivadavia

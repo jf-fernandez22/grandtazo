@@ -114,7 +114,14 @@ def get_player_data():
                 data.append(row_data)
             df = pd.DataFrame(data[2:], columns=data[1])
             df['team'] = team
-            df.to_csv('./stats/' + team + '_stats.csv')
+            if 'Belgrano' in url.split('/')[-1].split('-'):
+                df.to_csv('./stats/Belgrano_stats.csv')
+            elif 'Newells' in url.split('/')[-1].split('-'):
+                df.to_csv('./stats/Newell\'\sOB_stats.csv')
+            elif 'InstitutoAtleticoCentralCordoba' in url.split('/')[-1].replace('-',''):
+                df.to_csv('./stats/Instituto_stats.csv')
+            else:
+                df.to_csv('./stats/' + team + '_stats.csv')
             pb1.update(1)
         except Exception as e:
             print('Error:', e)
@@ -151,6 +158,8 @@ def score_gk(team, rival, teamstats, std, f1, f2, f3, local, fecha):
     for idx, row in gks.iterrows():
         score = dp*f1 + local*f2 - op*f3
         minutos = row[7]/((fecha-1)*90)
+        if team == 'IndependienteRivadavia':
+            team = 'IndRivadavia'
         df0 = pd.DataFrame({'Jugador': [row[1]], 'Equipo': [team], 'Score': [round(score,3)], 'Minutos': [round(minutos,2)*100]})
         dfs.append(df0)
     df = pd.concat(dfs)
@@ -168,7 +177,8 @@ def score_def(team, rival, teamstats, std, f1, f2, f3, f4, f5, f6, local, fecha)
         amarillaspp = row[15] * 90 / row[7]
         rojaspp = row[16] * ((fecha-1)*90) / row[7]
         score = dp*f1 + local*f2 + golespp*f3 - amarillaspp*f4 - rojaspp*f5 - opr*f6
-        
+        if team == 'IndependienteRivadavia':
+            team = 'IndRivadavia'
         df0 = pd.DataFrame({'Jugador': [row[1]], 
                             'Equipo': [team], 
                             'Score': [round(score, 3)], 
@@ -192,7 +202,8 @@ def score_mf(team, rival, teamstats, std, f1, f2, f3, f5, f6, f7, local, fecha):
         amarillaspp = row[15] * 90 / row[7]
         rojaspp = row[16] * ((fecha-1)*90) / row[7]
         score = opt*f1 + local*f2 + golespp*f3 - amarillaspp*f5 - rojaspp*f6 - dpr*f7
-        
+        if team == 'IndependienteRivadavia':
+            team = 'IndRivadavia'
         df0 = pd.DataFrame({'Jugador': [row[1]], 
                             'Equipo': [team], 
                             'Score': [round(score, 3)], 
@@ -217,7 +228,8 @@ def score_del(team, rival, teamstats, std, f1, f2, f3, f4, f5, f6, f7, local, fe
         amarillaspp = row[15] * 90 / row[7]
         rojaspp = row[16] * ((fecha-1)*90) / row[7]
         score = opt*f1 + local*f2 + golespp*f3 + asistpp*f4 - amarillaspp*f5 - rojaspp*f6 - dpr*f7
-        
+        if team == 'IndependienteRivadavia':
+            team = 'IndRivadavia'
         df0 = pd.DataFrame({'Jugador': [row[1]], 
                             'Equipo': [team], 
                             'Score': [round(score, 3)], 
@@ -242,7 +254,7 @@ def analyze(fec, week, std):
             try:
                 rival, local = get_opponent_and_location(team, fec)
                 arqs.append(score_gk(team, rival, df, std, 0.5, 0.2, 0.6, local, week))
-                defs.append(score_def(team, rival, df, std, 0.6, 0.1, 0.8, 0.6, 0.6, 0.5, local, week))
+                defs.append(score_def(team, rival, df, std, 0.6, 0.3, 0.8, 0.6, 0.6, 0.5, local, week))
                 meds.append(score_mf(team, rival, df, std, 0.7, 0.1, 0.9, 0.6, 0.5,0.3, local, week))
                 dels.append(score_del(team, rival, df, std, 0.7, 0.1, 0.8, 0.5, 0.5, 0.5,0.5, local, week))
                 #print('Listo: '+team)
@@ -262,13 +274,13 @@ def show_analysis():
     arq, df, med, dl = analyze(fixture_df, week, std)
     selected_columns = ['Jugador', 'Equipo', 'Score']
     entry_3.delete(1.0, tk.END)  # Clear previous text
-    entry_3.insert(tk.END, arq[arq['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(10).to_string(index=False))
+    entry_3.insert(tk.END, arq[arq['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(25).to_string(index=False))
     entry_4.delete(1.0, tk.END)  # Clear previous text
-    entry_4.insert(tk.END, df[df['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(10).to_string(index=False))
+    entry_4.insert(tk.END, df[df['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(25).to_string(index=False))
     entry_5.delete(1.0, tk.END)  # Clear previous text
-    entry_5.insert(tk.END, med[med['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(10).to_string(index=False))
+    entry_5.insert(tk.END, med[med['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(25).to_string(index=False))
     entry_6.delete(1.0, tk.END)  # Clear previous text
-    entry_6.insert(tk.END, dl[dl['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(10).to_string(index=False))
+    entry_6.insert(tk.END, dl[dl['Minutos'] > 50].sort_values(by=['Score'], ascending= False)[selected_columns].head(25).to_string(index=False))
     
     
 window = Tk()
@@ -327,7 +339,7 @@ entry_1 = Text(
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0,
-    font=("Arial", 11)
+    font=("Arial", 9)
 )
 entry_1.place(
     x=969.0,
@@ -357,7 +369,7 @@ entry_2 = Text(
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0,
-    font=("Arial", 11)
+    font=("Arial", 9)
 )
 entry_2.place(
     x=534.0,
@@ -387,7 +399,7 @@ entry_3 = Text(
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0,
-    font=("Arial", 11)
+    font=("Arial", 9)
 )
 entry_3.place(
     x=33.0,
@@ -402,7 +414,7 @@ canvas.create_text(
     anchor="nw",
     text="Mejores Arqueros",
     fill="#000000",
-    font=("Inter", 28 * -1)
+    font=("Inter", 32 * -1)
 )
 
 entry_image_4 = PhotoImage(
@@ -417,7 +429,7 @@ entry_4 = Text(
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0,
-    font=("Arial", 11)
+    font=("Arial", 9)
 )
 entry_4.place(
     x=384.0,
@@ -432,7 +444,7 @@ canvas.create_text(
     anchor="nw",
     text="Mejores Defensores",
     fill="#000000",
-    font=("Inter", 28 * -1)
+    font=("Inter", 32 * -1)
 )
 
 entry_image_5 = PhotoImage(
@@ -447,7 +459,7 @@ entry_5 = Text(
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0,
-    font=("Arial", 11)
+    font=("Arial", 9)
 )
 entry_5.place(
     x=735.0,
@@ -462,7 +474,7 @@ canvas.create_text(
     anchor="nw",
     text="Mejores Medios",
     fill="#000000",
-    font=("Arial", 11)
+    font=("Inter", 32 * -1)
 )
 
 entry_image_6 = PhotoImage(
@@ -477,7 +489,7 @@ entry_6 = Text(
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0,
-    font=("Helvetica", 12)
+    font=("Arial", 9)
 )
 entry_6.place(
     x=1079.0,
@@ -492,7 +504,7 @@ canvas.create_text(
     anchor="nw",
     text="Mejores Delanteros",
     fill="#000000",
-    font=("Inter", 28 * -1)
+    font=("Inter", 32 * -1)
 )
 button_image_0 = PhotoImage(
     file=relative_to_assets("jugs.png"))
